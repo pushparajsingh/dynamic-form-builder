@@ -1,0 +1,541 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  margin-right: 2px;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 8px;
+}
+
+.green {
+  background-color: darkolivegreen;
+  color: white;
+}
+
+.btn-toolbar {
+  padding-bottom: 10px;
+  /* margin: auto; */
+}
+
+#heading-premium {
+  display: none;
+}
+
+#group-premium {
+  display: none !important;
+}
+
+#heading-layout {
+  display: none;
+}
+
+#group-layout {
+  display: none !important;
+}
+
+#heading-data {
+  display: none;
+}
+
+#group-data {
+  display: none !important;
+}
+
+span[data-key="survey"] {
+  display: none;
+}
+
+span[data-key="signature"] {
+  display: none;
+}
+
+span[data-key="currency"] {
+  display: none;
+}
+
+span[data-key="tags"] {
+  display: none;
+}
+
+span[data-key="day"] {
+  display: none;
+}
+
+span[data-key="address"] {
+  display: none;
+}
+
+span[data-type="button"] {
+  display: none;
+}
+
+span[data-type="checkbox"] {
+  display: none;
+}
+
+span[data-type="url"] {
+  display: none;
+}
+
+button[ref="button"] {
+  display: none;
+}
+
+path[d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"] {
+  display: none;
+}
+
+/* svg[data-icon="dot-circle-o"]{
+  visibility: hidden;
+} */
+a[href="#logic"] {
+  visibility: hidden;
+}
+
+a[href="#conditional"] {
+  visibility: hidden;
+}
+
+a[href="#api"] {
+  visibility: hidden;
+}
+
+li a[href="#date"] {
+  display:none !important
+}
+
+li a[href="#time"] {
+  display: none  !important; 
+}
+
+a[href="#layout"] {
+  visibility: hidden;
+}
+
+/* label[]{
+  visibility: hidden;
+} */
+div[class="form-group has-feedback formio-component formio-component-select formio-component-labelPosition"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-autocomplete"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-customClass"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-applyMaskOn"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-displayMask"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-tabindex"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-prefix"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-suffix"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textarea formio-component-tooltip"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-widget.type"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-inputMask"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-allowMultipleMasks"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textarea formio-component-description"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-radio formio-component-case"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-redrawOn"] {
+  display: none;
+}
+
+a[rel="noopener noreferrer"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-hideLabel"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-mask"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-disabled"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-modalEdit"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-tableView"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-disabled"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-hidden"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-hidden"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-showWordCount"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-spellcheck"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-showCharCount"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-autofocus"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-radio formio-component-persistent"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-defaultValue"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-multiple"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-dbIndex"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-protected"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-encrypted"] {
+  display: none;
+}
+
+div[class="formio-component formio-component-panel formio-component-customDefaultValuePanel"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-truncateMultipleSpaces"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-clearOnHide"] {
+  display: none;
+}
+
+div[class="formio-component formio-component-panel formio-component-calculateValuePanel"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-allowCalculateOverride"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-calculateServer"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-inputFormat"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-number formio-component-validate.minLength"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-number formio-component-validate.maxLength"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-number formio-component-validate.minWords"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-number formio-component-validate.maxWords"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-validate.customMessage"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-errorLabel"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-validate.pattern"] {
+  display: none;
+}
+
+div[class="formio-component formio-component-panel formio-component-json-validation-json"] {
+  display: none;
+}
+
+div[class="formio-component formio-component-panel formio-component-errors"] {
+  display: none;
+}
+
+div[class="formio-component formio-component-panel formio-component-custom-validation-js"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-validateOn"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-number formio-component-rows"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textarea formio-component-widget"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-editor"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-autoExpand"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-number formio-component-decimalLimit"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-delimiter"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-requireDecimal"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-number formio-component-validate.min"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-number formio-component-validate.max"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-optionsLabelPosition"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-inline"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-dataSrc  required"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-maxSelectedCountMessage"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-minSelectedCountMessage"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-number formio-component-validate.maxSelectedCount"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-number formio-component-validate.minSelectedCount"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-validate.onlyAvailableItems"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-widget"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-uniqueOptions"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-dataType"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-idPath"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-refreshOnBlur"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-refreshOn"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-searchEnabled"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-clearOnRefresh"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-readOnlyValue"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-useExactSearch"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textarea formio-component-customOptions"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textarea formio-component-template formio-modified"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-number formio-component-selectThreshold"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-dataSrc"] {
+  display: none;
+}
+
+div[class="mb-2 card border"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textarea formio-component-template"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-displayInTimezone"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-allowInput"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-allowInput"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-format"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-inputMaskPlaceholderChar"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-editgrid formio-component-shortcutButtons"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-useLocaleSettings"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-defaultDate"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-enableMinDateInput"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-datetime formio-component-datePicker.minDate"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-datetime formio-component-datePicker.maxDate"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-inputMaskPlaceholderChar"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-enableMaxDateInput"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-checkbox formio-component-unique"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-textfield formio-component-dataFormat"] {
+  display: none;
+}
+
+div[class="form-group has-feedback formio-component formio-component-select formio-component-inputType"] {
+  display: none;
+}
+
+button[ref="removeButton"] {
+  display: none;
+}
